@@ -1,0 +1,105 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+body > div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* *first_container */
+body > div > div:first-child {
+  width: 90%;
+  height: 100%;
+}
+
+/* *top_container */
+body > div > div > div:first-child {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+body > div > div > div > div:first-child {
+  width: 60%;
+  height: 100%;
+  background-color: red;
+}
+
+body > div > div > div > div:nth-child(2) {
+  width: 40%;
+  height: 100%;
+  background-color: blue;
+}
+
+.test {
+  display: flex;
+  width: 100%;
+  height: 60%;
+}
+
+/* *middle_wrapper */
+body > div > div > div:nth-child(2) > div:first-child {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+body > div > div > div:nth-child(2) > div:first-child > div:first-child {
+  width: 69%;
+  height: 100%;
+  background-color: blueviolet;
+}
+
+body > div > div > div:nth-child(2) > div:first-child > div:nth-child(2) {
+  width: 16%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+body > div > div > div:nth-child(2) > div:first-child > div:nth-child(3) {
+  width: 15%;
+  height: 100%;
+  background-color: burlywood;
+}
+
+/* *middle_container_last_container */
+#middle_container_last_container {
+  width: 14%;
+  height: 100%;
+  background-color: brown;
+}
+
+/* *bottom_container */
+body > div > div > div:nth-child(3) {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+body > div > div > div:nth-child(3) > div:first-child {
+  width: 20%;
+  background-color: black;
+}
+
+body > div > div > div:nth-child(3) > div:nth-child(2) {
+  width: 30%;
+  background-color: cadetblue;
+}
+
+body > div > div > div:nth-child(3) > div:nth-child(3) {
+  width: 50%;
+  background-color: chartreuse;
+}
+
+/* *last_container  */
+body > div > div:nth-child(2) {
+  width: 10%;
+  height: 100%;
+  background-color: black;
+}

@@ -1,0 +1,22 @@
+body > div > div:first-child {
+  border: 4px solid black;
+}
+
+body > div > div:nth-child(2) {
+  border: 4px solid black;
+  border-left: 0px;
+}
+
+body > div > div:nth-child(2) > div:first-child {
+  border: 4px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+body > div > div:nth-child(2) > div:nth-child(2) {
+  border: 4px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
